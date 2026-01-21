@@ -103,18 +103,19 @@ ls -l OUTP/*.OUT
 
 # Compare output with reference, ignoring the first line
 # (first line often contains timestamps or version info)
+shopt -s nullglob  # Prevent errors if no .OUT files exist
 for outfile in OUTP/*.OUT; do
     reffile="OUTP_REF/$(basename $outfile)"
     if [ -f "$reffile" ]; then
         echo "Comparing $outfile with $reffile"
-        diff <(tail -n +2 "$outfile") <(tail -n +2 "$reffile")
-        if [ $? -eq 0 ]; then
+        if diff <(tail -n +2 "$outfile") <(tail -n +2 "$reffile") > /dev/null 2>&1; then
             echo "✓ $outfile matches reference"
         else
             echo "✗ $outfile differs from reference"
         fi
     fi
 done
+shopt -u nullglob
 ```
 
 ## Running AquaCrop via Slurm
@@ -182,6 +183,7 @@ echo "Comparing with reference outputs..."
 DIFF_COUNT=0
 MATCH_COUNT=0
 
+shopt -s nullglob  # Prevent errors if no .OUT files exist
 for outfile in OUTP/*.OUT; do
     reffile="OUTP_REF/$(basename $outfile)"
     if [ -f "$reffile" ]; then
@@ -197,6 +199,7 @@ for outfile in OUTP/*.OUT; do
         echo "  ⚠ No reference file found: $reffile"
     fi
 done
+shopt -u nullglob
 
 echo ""
 echo "Validation summary:"
