@@ -51,5 +51,10 @@ chmod +x ./aquacrop
 
 ```
 
+### 2. GIRO DE LOS ACONTECIMIENTOS: ¿?
 
+#### Enlaces
+
+- **AquaCrop Python**: https://github.com/aquacropos/aquacrop
+- **AquaCrop-OSPy Python Tutorial**: https://aquacropos.github.io/aquacrop/
 
