@@ -32,7 +32,15 @@ cd /home/esp9221/PERM/aquacrop/AquaCrop/src
 make
 ldd ./aquacrop | egrep "not found" || echo "OK: no missing shared libs"
 ```
-Se ha generado un ejecutable ``` src/aquacrop``` 
+Se ha generado un ejecutable ```src/aquacrop``` y una librería ```src/libaquacrop.so```
+
+Comprobamos que se haya generado todo bien
+```bash
+ls -lh aquacrop libaquacrop.so
+file aquacrop libaquacrop.so
+ldd ./aquacrop | egrep "not found" || echo "OK: no missing shared libs"
+
+```
 
 #### 1.2 Correr el tescase
 
