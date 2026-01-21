@@ -1,4 +1,6 @@
 # Documentación AquaCrop para Seasonal
+
+## ¿Qué es AquaCrop?
 Herramienta que transforma información atmosférica (clima/tiempo) en información de rendimiento de cultivos.
 
 **AquaCrop** es un modelo de crecimiento de cultivos desarrollado por la **División de Tierras y Aguas de la FAO** para abordar la seguridad alimentaria y evaluar el efecto del entorno y de la gestión agronómica en la producción de cultivos.
