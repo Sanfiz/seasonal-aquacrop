@@ -18,9 +18,9 @@ AquaCrop equilibra **precisión, simplicidad y robustez**. Para garantizar su am
 
 ---
 
-## 1. Instalar en HPC de ECMWF
+### 1. Instalar en HPC de ECMWF
 
-### 1.1 Clonar repositorio y chequear
+#### 1.1 Clonar repositorio y chequear
 
 ```bash
 git clone https://github.com/KUL-RSDA/AquaCrop.git
@@ -28,7 +28,9 @@ cd AquaCrop/src
 ldd ./aquacrop | egrep "not found" || echo "OK: no missing shared libs"
 ```
 
-### 1.2 Cargar librerías y compilar
+#### 1.2 Cargar librerías y compilar
+
+
 
 
 
