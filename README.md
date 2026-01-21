@@ -8,3 +8,11 @@ Simula la respuesta del rendimiento de los cultivos herbáceos al agua y está e
 AquaCrop equilibra **precisión, simplicidad y robustez**. Para garantizar su amplia aplicabilidad, utiliza solo un pequeño número de parámetros explícitos y variables de entrada mayoritariamente intuitivas, que pueden determinarse mediante métodos sencillos.
 
 ---
+## Enlaces
+
+- **GIT (AquaCrop open-source)**: https://github.com/KUL-RSDA/AquaCrop
+- **FAO website**: https://www.fao.org/aquacrop/en/
+- **Tutorial AquaCrop.jl**: https://gabo-di.github.io/AquaCrop.jl/dev/
+- **Tutorial español (YouTube)**: https://www.youtube.com/watch?v=JqvePbXgkNA
+
+---
