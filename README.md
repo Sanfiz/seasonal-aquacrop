@@ -22,11 +22,11 @@ AquaCrop equilibra **precisión, simplicidad y robustez**. Para garantizar su am
 
 ### 1.1 Clonar repositorio y chequear
 
- ```bash `
+```bash
 git clone https://github.com/KUL-RSDA/AquaCrop.git
 cd AquaCrop/src
 ldd ./aquacrop | egrep "not found" || echo "OK: no missing shared libs"
-` ```
+```
 
 ### 1.2 Cargar librerías y compilar
 
