@@ -15,22 +15,33 @@ AquaCrop equilibra **precisión, simplicidad y robustez**. Para garantizar su am
 - **FAO website**: https://www.fao.org/aquacrop/en/
 - **Tutorial AquaCrop.jl**: https://gabo-di.github.io/AquaCrop.jl/dev/
 - **Tutorial español (YouTube)**: https://www.youtube.com/watch?v=JqvePbXgkNA
+- **AquaCrop Python**: https://github.com/aquacropos/aquacrop
+- **AquaCrop-OSPy Python Tutorial**: https://aquacropos.github.io/aquacrop/
 
 ---
 
-### 1. Instalar en HPC de ECMWF
+### 1. Primeros pasos en HPC de ECMWF
 
-#### 1.1 Clonar repositorio y chequear
+#### 1.1 Clonar repositorio, cargar librerías y compilar
 
 ```bash
 git clone https://github.com/KUL-RSDA/AquaCrop.git
-cd AquaCrop/src
+module load intel
+module load gcc
+cd /home/esp9221/PERM/aquacrop/AquaCrop/src
+make
 ldd ./aquacrop | egrep "not found" || echo "OK: no missing shared libs"
 ```
+Se ha generado un ejecutable ``` src/aquacrop``` 
 
-#### 1.2 Cargar librerías y compilar
+#### 1.2 Correr el tescase
 
+```bash
+cd ~/PERM/aquacrop/AquaCrop/testcase
+ln -sf ../src/aquacrop ./aquacrop
+chmod +x ./aquacrop
 
+```
 
 
 
