@@ -17,3 +17,11 @@ AquaCrop equilibra **precisión, simplicidad y robustez**. Para garantizar su am
 - **Tutorial español (YouTube)**: https://www.youtube.com/watch?v=JqvePbXgkNA
 
 ---
+
+# 1) Install (HPC Linux / sin GUI)
+
+## 1.1 Clonar repositorio
+
+```bash
+git clone https://github.com/KUL-RSDA/AquaCrop.git
+cd AquaCrop/src
