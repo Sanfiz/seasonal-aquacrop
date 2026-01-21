@@ -20,8 +20,12 @@ AquaCrop equilibra **precisión, simplicidad y robustez**. Para garantizar su am
 
 # 1) Install (HPC Linux / sin GUI)
 
-## 1.1 Clonar repositorio
+## 1.1 Clonar repositorio y chequear
 
 ```bash
 git clone https://github.com/KUL-RSDA/AquaCrop.git
 cd AquaCrop/src
+ldd ./aquacrop | egrep "not found" || echo "OK: no missing shared libs"
+
+## 1.2 
+
