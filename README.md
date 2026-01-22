@@ -57,5 +57,4 @@ chmod +x ./aquacrop
 - **AquaCrop Python**: https://github.com/aquacropos/aquacrop
 - **AquaCrop-OSPy Python Tutorial**: https://aquacropos.github.io/aquacrop/
 - **Notebook**: https://colab.research.google.com/github/aquacropos/aquacrop/blob/master/docs/notebooks/AquaCrop_OSPy_Notebook_1.ipynb
-- **Notebook 2**: https://github.com/aquacropos/aquacrop/blob/master/docs/notebooks/AquaCrop_OSPy_Notebook_1.ipynb
-- **Paper**: https://colab.research.google.com/github/aquacropos/aquacrop/blob/master/docs/notebooks/AquaCrop_OSPy_Notebook_1.ipynb
+- **Paper**: https://www.sciencedirect.com/science/article/pii/S0378377421002419?via%3Dihub
