@@ -15,8 +15,7 @@ AquaCrop equilibra **precisión, simplicidad y robustez**. Para garantizar su am
 - **FAO website**: https://www.fao.org/aquacrop/en/
 - **Tutorial AquaCrop.jl**: https://gabo-di.github.io/AquaCrop.jl/dev/
 - **Tutorial español (YouTube)**: https://www.youtube.com/watch?v=JqvePbXgkNA
-- **AquaCrop Python**: https://github.com/aquacropos/aquacrop
-- **AquaCrop-OSPy Python Tutorial**: https://aquacropos.github.io/aquacrop/
+
 
 ---
 
@@ -51,7 +50,7 @@ chmod +x ./aquacrop
 
 ```
 
-### 2. GIRO DE LOS ACONTECIMIENTOS: ¿AquaCrop-OSPy?
+### 2. AquaCrop-OSPy
 
 #### Enlaces
 
