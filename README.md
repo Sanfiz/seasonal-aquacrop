@@ -19,9 +19,9 @@ AquaCrop equilibra **precisión, simplicidad y robustez**. Para garantizar su am
 
 ---
 
-### 1. Primeros pasos en HPC de ECMWF
+# 1. Primeros pasos en HPC de ECMWF
 
-#### 1.1 Clonar repositorio, cargar librerías y compilar
+## 1.1 Clonar repositorio, cargar librerías y compilar
 
 ```bash
 git clone https://github.com/KUL-RSDA/AquaCrop.git
@@ -41,7 +41,7 @@ ldd ./aquacrop | egrep "not found" || echo "OK: no missing shared libs"
 
 ```
 
-#### 1.2 Correr el tescase
+## 1.2 Tescase
 
 ```bash
 cd ~/PERM/aquacrop/AquaCrop/testcase
@@ -50,15 +50,25 @@ chmod +x ./aquacrop
 
 ```
 
-#### 1.3 Inputs
+### 1.2.1 Inputs Testcase
 
 - Biología y Fenología
 - Climatología interpolada
 - Forecast
 
+  testcase/
+├── aquacrop -> ../src/aquacrop
+├── DATA/
+├── LIST/
+├── OBS/
+├── OUTP/
+├── OUTP_REF/
+├── PARAM/
+└── SIMUL/
 
 
-### 2. AquaCrop-OSPy
+
+# 2. AquaCrop-OSPy
 
 AquaCrop-OSPy es un modelo de cultivo-agua en Python de código abierto.
 No es una implementación ni una versión oficial del modelo AquaCrop de la FAO. AquaCrop-OSPy reproduce la mayoría de las funcionalidades disponibles en la V7.1, con la excepción de rutinas para el estrés por salinidad y fertilidad, la gestión de malas hierbas, y los cultivos herbáceos perennes.
