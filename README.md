@@ -50,6 +50,14 @@ chmod +x ./aquacrop
 
 ```
 
+#### 1.3 Inputs
+
+- Biología y Fenología
+- Climatología interpolada
+- Forecast
+
+
+
 ### 2. AquaCrop-OSPy
 
 AquaCrop-OSPy es un modelo de cultivo-agua en Python de código abierto.
